@@ -1,0 +1,164 @@
+[
+    {
+        "_id": 1006,
+        "FirstName": "Hailey",
+        "LastName": "Barajas",
+        "Email": "HBarajas@gmail.com",
+        "Password": "Sky#123@",
+        "Confirm Password": "Sky#123@",
+        "Phone": "6578458624",
+        "Address": [
+            {
+                "Unit": "40",
+                "Street": "Main Street South",
+                "City": "Campbell",
+                "Provience": "Ontario",
+                "ZipCode": "L6S2B7"
+            }
+        ]
+    },
+    {
+        "_id": 1009,
+        "FirstName": "Kasha",
+        "LastName": "Todd",
+        "Email": "kashtodd@yahoo.com",
+        "Password": "Earth#134@",
+        "Confirm Password": "Earth#134@",
+        "Phone": "9168547879",
+        "Address": [
+            {
+                "Unit": "92",
+                "Street": "Thomes Avenue",
+                "City": "Orchard Park",
+                "Provience": "Ontario",
+                "ZipCode": "M7Y5F6"
+            }
+        ]
+    },
+    {
+        "_id": 1010,
+        "FirstName": "Tameka",
+        "LastName": "Fisher",
+        "Email": "TamFisher23@yahoo.com",
+        "Password": "Tameka887##",
+        "Confirm Password": "Tameka887##",
+        "Phone": "6478768204",
+        "Address": [
+            {
+                "Unit": "701",
+                "Street": "Blue Hills",
+                "City": "Brampton",
+                "Provience": "Ontario",
+                "ZipCode": "L9S7H4"
+            }
+        ]
+    },
+    {
+        "_id": 1015,
+        "FirstName": "Daryl",
+        "LastName": "Spence",
+        "Email": "DarySpence000@gmail.com",
+        "Password": "Spence@667",
+        "Confirm Password": "Spence@667",
+        "Phone": "2478798505",
+        "Address": [
+            {
+                "Unit": "31",
+                "Street": "Pearl Lane",
+                "City": "North York",
+                "Provience": "Ontario",
+                "ZipCode": "M8Y5K7"
+            }
+        ]
+    },
+    {
+        "_id": 1020,
+        "FirstName": "Charollette",
+        "LastName": "Rice",
+        "Email": "Charollette364@yahoo.com",
+        "Password": "Heaven777",
+        "Confirm Password": "Heaven777",
+        "Phone": "2987499604",
+        "Address": [
+            {
+                "Unit": "15",
+                "Street": "Brown Street",
+                "City": "Brampton",
+                "Provience": "Onatrio",
+                "ZipCode": "L6R2C7"
+            }
+        ]
+    },
+    {
+        "_id": 1025,
+        "FirstName": "Latasha",
+        "LastName": "Hays",
+        "Email": "LHays876@gmail.com",
+        "Password": "vill56@77",
+        "Confirm Password": "vill56@77",
+        "Phone": "9057820316",
+        "Address": [
+            {
+                "Unit": "47",
+                "Street": "Chest Avenue",
+                "City": "Missisauga",
+                "Provience": "Ontario",
+                "ZipCode": "R6W2T7"
+            }
+        ]
+    },
+    {
+        "_id": 1040,
+        "FirstName": "Pamelia",
+        "LastName": "Newman",
+        "Email": "PNewman11@yahoo.com",
+        "Password": "PNew@9990",
+        "Confirm Password": "PNew@9990",
+        "Phone": "5486325548",
+        "Address": [
+            {
+                "Unit": "11",
+                "Street": "Oak Avenue",
+                "City": "Brampton",
+                "Provience": "Ontario",
+                "ZipCode": "L7H2G6"
+            }
+        ]
+    },
+    {
+        "_id": 1045,
+        "FirstName": "Happy",
+        "LastName": "Singh",
+        "Email": "Happy22@gmail.com",
+        "Password": "Happy22#420",
+        "Confirm Password": "Happy22#420",
+        "Phone": "2567418965",
+        "Address": [
+            {
+                "Unit": "30",
+                "Street": "Juile Court",
+                "City": "Brampton",
+                "Provience": "Ontario",
+                "ZipCode": "L6Y3L3"
+            }
+        ]
+    },
+    {
+        "_id": 1050,
+        "FirstName": "Aditi",
+        "LastName": "Roy",
+        "Email": "Roy0670@yahoo.com",
+        "Password": "AditiRoy@11",
+        "Confirm Password": "AditiRoy@11",
+        "Phone": "6589652145",
+        "Address": [
+            {
+                "Unit": "01",
+                "Street": "Hollywood Street",
+                "City": "Toronto",
+                "Provience": "Ontario",
+                "ZipCode": "M3R6T7Y"
+            }
+        ]
+    }
+]
