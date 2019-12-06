@@ -23,7 +23,6 @@ app.get('/menu',(req,res)=>{
 	});
 });
 
-//CODE TO READ DATA FROM COLLECTION
 app.post('/menu_data',(req,res)=>{
 	var MongoClient = mongodb.MongoClient;
 	var url = "mongodb://localhost:27017/";
