@@ -14,10 +14,25 @@ app.get('/menu',(req,res)=>{
 	{
 		if (err) throw err;
 		var dbo = db.db("FoodHubDb");	
-		dbo.collection('Dessert').find({}).toArray(function(err, result) 
+		dbo.collection('Dessert').find({}).toArray(function(err, result)
 		{
 			if (err) throw err;
-			res.send(result);
+			// write HTML output
+          var output = '<html><header><title>Display DB</title></header><body>';
+          output += '<table border="1"><tr><td><b>' + 'ID' + '</b></td><td><b>' + 'NAME' + '</b></td><td><b>' + 'PRICE' + '</b></td><td><b>' + 'DESCRIPTION' + '</b></td></tr>';
+
+          // process todo list
+            result.forEach(function(results){
+            output += '<tr><td>' + results._id + '</td><td>' + results.Name +  '</td><td>' + results.Price  +'</td><td>' + results.Description +'</td></tr>';
+          });
+
+          // write HTML output (ending)
+          output += '</table></body></html>'
+
+          // send output back
+		  res.send(output);
+		  console.log(result);
+			//res.send(JSON.stringify(result,null,2));
 			db.close();
 		});
 	});
@@ -49,6 +64,15 @@ app.post('/menu_data',(req,res)=>{
   
 const port = process.env.PORT || 8080;
 app.listen(port, () => console.log('Listening on port ${port}..'));
+
+
+
+
+
+
+
+
+
 
 
 
